@@ -3,8 +3,10 @@
 int main()
 {    
     char ch;
+
      printf("Lower and Uppercase alphabet=");
      scanf("%c",&ch);
+
     if(ch>='A' && ch<='Z') 
     {  
     printf("Uppercase Alphabet %c.",ch);
@@ -17,6 +19,8 @@ int main()
     {
     printf(" There is no Alphabet %c.",ch);
     }
+
+    getch();
     return 0;
 }
     
